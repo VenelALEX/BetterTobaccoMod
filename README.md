@@ -1,6 +1,6 @@
 <div align="center">
     <br />
-    <img style="image-rendering: pixelated; image-rendering: crisp-edges; image-rendering: -moz-crisp-edges;" src="./etc/tobacco_plant@512.png" alt="Raw Tobacco" width="150"/>
+    <img style="image-rendering: pixelated; image-rendering: crisp-edges; image-rendering: -moz-crisp-edges;" src="./etc/tobacco_plant7@512.png" alt="Raw Tobacco" width="150"/>
     <h1>BetterTobacco</h1>
     <h3>Better Tobacco Mod for Minecraft 1.14.4</h3>
 </div>
