@@ -52,11 +52,7 @@
 - [ ] Biomes
 - [ ] Custom Mobs
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="a.reinhardbrenner@gmail.com" />
-<input type="hidden" name="item_name" value="Development of BetterTobaccoMod" />
-<input type="hidden" name="currency_code" value="EUR" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_AT/i/scr/pixel.gif" width="1" height="1" />
-</form>
+### Like our work?
+
+*Every donation is welcome!*
+https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=a.reinhardbrenner%40gmail.com&item_name=Development+of+BetterTobaccoMod&currency_code=EUR&source=url
