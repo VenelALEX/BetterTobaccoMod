@@ -1,3 +1,7 @@
+/*
+ * @2020 Alexander B./ David F.
+ * */
+
 package venelalex.bettertobacco;
 
 import org.apache.logging.log4j.LogManager;
