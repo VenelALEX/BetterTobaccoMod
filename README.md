@@ -9,7 +9,7 @@
 
 [![License](https://img.shields.io/badge/license-LGPL-brightgreen.svg)](https://github.com/AlexanderBrenner/BetterTobaccoMod/blob/master/LICENSE.txt)
 [![MinecraftVersion](https://img.shields.io/static/v1?label=Minecraft&message=1.14.4&color=brightgreen)](http://files.minecraftforge.net/)
-![Build](https://github.com/AlexanderBrenner/BetterTobaccoMod/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)
+[![Build](https://github.com/AlexanderBrenner/BetterTobaccoMod/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)](https://github.com/AlexanderBrenner/BetterTobaccoMod/actions)
 
 </div>
 
