@@ -26,9 +26,9 @@
 ## TODO
 
 ### Add Items (Model, Textures, Lang, Functionality)
-- [ ] Add Tobacco Seeds
-- [ ] Add Dried Tobacco
-- [ ] Add Cigarettes
+- [x] Add Tobacco Seeds
+- [x] Add Dried Tobacco
+- [x] Add Cigarettes
 - [ ] Add *Suprise* Item
 - [ ] Add Hookah Tobacco
 
