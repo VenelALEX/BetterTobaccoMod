@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 version = '0.0.1'
 group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+archivesBaseName = 'bettertobacco'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -127,7 +127,7 @@ jar {
             "Specification-Title": "bettertobacco",
             "Specification-Vendor": "VenelALEX",
             "Specification-Version": "1", // We are version 1 of ourselves
-            "Implementation-Title": project.name,
+            "Implementation-Title": "bettertobacco",
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"VenelALEX",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
