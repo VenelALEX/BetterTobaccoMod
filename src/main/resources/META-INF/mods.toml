@@ -4,11 +4,13 @@ loaderVersion="[26,)" #mandatory (26 is current forge version)
 modId="bettertobacco" #mandatory
 version="0.0.1" #mandatory
 displayName="Better Tobacco" #mandatory
-#logoFile="examplemod.png" #optional
+logoFile="bt_logo.png"
 credits="With lots of love and passion FROM and FOR tobacco lovers <3" #optional
-authors="VenelALEX, fISHICAL" #optional
+authors="VenelALEX, fISHICAL"
+issueTrackerURL="https://github.com/AlexanderBrenner/BetterTobaccoMod/issues"
+displayURL="https://github.com/AlexanderBrenner/BetterTobaccoMod"
 description='''
-The BetterTobacco Mod aims to implement tobacco and various products from the tobacco industry in Minecraft. 
+The BetterTobacco Mod aims to implement tobacco and various products from the tobacco industry in Minecraft.
 Please respect the fact that you are not allowed to smoke until you reach the age of 18. :)
 ----------------------------------
 
