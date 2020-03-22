@@ -13,6 +13,16 @@
 
 </div>
 
+## Supported Languages
+- [x] AT 🇦🇹
+- [x] CH 🇨🇭
+- [x] DE 🇩🇪
+- [x] US 🇺🇸🇬🇧🇨🇦🇦🇺
+- [ ] RS 🇷🇸
+- [ ] HR 🇭🇷
+- [ ] BA 🇧🇦
+- [ ] HU 🇭🇺
+
 ## TODO
 
 ### Add Items (Model, Textures, Lang, Functionality)
