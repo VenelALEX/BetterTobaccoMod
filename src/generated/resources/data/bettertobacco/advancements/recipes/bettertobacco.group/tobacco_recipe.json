@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bettertobacco:tobacco_recipe"
+    ]
+  },
+  "criteria": {
+    "Einfach_so": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat_seeds"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettertobacco:tobacco_recipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Einfach_so",
+      "has_the_recipe"
+    ]
+  ]
+}

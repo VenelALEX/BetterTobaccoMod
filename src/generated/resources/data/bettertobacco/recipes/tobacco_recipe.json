@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:raw_tobacco_item"
+  }
+}
