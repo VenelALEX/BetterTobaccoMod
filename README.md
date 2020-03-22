@@ -13,4 +13,18 @@
 </div>
 
 ## TODO
-- [ ] Add Shisha usw...
+
+###Add Items (Model, Textures, Lang, Functionality)
+- [ ] Add Tobacco Seeds
+- [ ] Add Dried Tobacco
+- [ ] Add Cigarettes
+- [ ] Add *Suprise* Item
+- [ ] Add Hookah Tobacco
+
+###Add Blocks (Model, Textures, Lang, Functionality)
+- [ ] Add Hookah usw...
+
+###Add Concepts for:
+- [ ] Hookah
+- [ ] Biomes
+- [ ] Custom Mobs
