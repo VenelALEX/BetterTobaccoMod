@@ -51,5 +51,3 @@
 - [ ] Hookah
 - [ ] Biomes
 - [ ] Custom Mobs
-
-## Preview Images
