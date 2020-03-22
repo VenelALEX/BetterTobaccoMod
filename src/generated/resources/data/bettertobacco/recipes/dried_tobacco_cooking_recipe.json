@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bettertobacco:raw_tobacco_item"
+  },
+  "result": "bettertobacco:dried_tobacco_item",
+  "experience": 10.0,
+  "cookingtime": 20
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PWP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:tobacco_filter_item",
+    "count": 4
+  }
+}

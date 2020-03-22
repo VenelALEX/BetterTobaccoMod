@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bettertobacco:tobacco_recipe"
+      "bettertobacco:dried_tobacco_cooking_recipe"
     ]
   },
   "criteria": {
-    "Einfach_so": {
+    "Cook your tobacco!": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wheat_seeds"
+            "item": "bettertobacco:raw_tobacco_item"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bettertobacco:tobacco_recipe"
+        "recipe": "bettertobacco:dried_tobacco_cooking_recipe"
       }
     }
   },
   "requirements": [
     [
-      "Einfach_so",
+      "Cook your tobacco!",
       "has_the_recipe"
     ]
   ]

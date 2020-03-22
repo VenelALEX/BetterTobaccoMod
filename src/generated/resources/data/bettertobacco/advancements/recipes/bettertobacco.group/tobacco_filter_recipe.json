@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bettertobacco:tobacco_filter_recipe"
+    ]
+  },
+  "criteria": {
+    "I hope your are at least at the age of 18 :P but it\u0027s just a filter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:paper"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettertobacco:tobacco_filter_recipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "I hope your are at least at the age of 18 :P but it\u0027s just a filter",
+      "has_the_recipe"
+    ]
+  ]
+}
