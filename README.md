@@ -13,6 +13,18 @@
 
 </div>
 
+## Screenshots
+
+- Items
+![General](etc/V0.0.1/prev1.jpg)
+
+- Crops
+![General](etc/V0.0.1/prev2.jpg)
+
+- Items
+![General](etc/V0.0.1/prev3.jpg)
+
+
 ## Supported Languages
 - [x] AT 🇦🇹
 - [x] CH 🇨🇭
