@@ -1,4 +1,4 @@
-package venelalex.bettertobacco.blocks;
+package venelalex.bettertobacco.blocks.crops;
 
 import java.util.Random;
 
@@ -9,6 +9,7 @@ import net.minecraft.block.FarmlandBlock;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
@@ -70,4 +71,13 @@ public class TobaccoPlant extends CropsBlock implements IGrowable{
 	protected void fillStateContainer(Builder<Block, BlockState> builder) {
 		builder.add(TOBACCO_PLANT_AGE);
 	}
+	
+	protected Item getSeed() {
+		return BetterTobaccoItems.TOBACCO_SEEDS;
+	}
+	
+	protected Item getCrop() {
+		return BetterTobaccoItems.RAW_TOBACCO;
+	}
+	
 }
