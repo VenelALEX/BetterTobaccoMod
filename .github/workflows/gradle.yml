@@ -24,3 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Get File
+      uses: actions/upload-artifact@v1
+      with:
+        name: bettertobaccomod.jar
+        path: build/libs/modid-0.0.1.jar
