@@ -1,4 +1,8 @@
 {
 	"itemGroup.bettertobacco.group": "Better Tobacco",
-	"item.bettertobacco.raw_tobacco_item": "Roher Tabak"
+	"item.bettertobacco.raw_tobacco_item": "Roher Tabak",
+	"item.bettertobacco.tobacco_seeds_item": "Tabaksamen",
+	"item.bettertobacco.dried_tobacco_item": "Getrockneter Tabak",
+	"item.bettertobacco.tobacco_filter_item": "Tabak Filter",
+	"item.bettertobacco.cigarette_item": "Zigarette"
 }
