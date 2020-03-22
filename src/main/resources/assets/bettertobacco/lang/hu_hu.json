@@ -1,8 +1,8 @@
 {
-	"itemGroup.bettertobacco.group": "Better Tobacco",
-	"item.bettertobacco.raw_tobacco_item": "Roher Tabak",
-	"item.bettertobacco.tobacco_seeds_item": "Tabaksamen",
-	"item.bettertobacco.dried_tobacco_item": "Getrockneter Tabak",
-	"item.bettertobacco.tobacco_filter_item": "Tabak Filter",
-	"item.bettertobacco.cigarette_item": "Zigarette"
+    "itemGroup.bettertobacco.group": "Better Tobacco",
+    "item.bettertobacco.raw_tobacco_item": "Nyers dohány",
+    "item.bettertobacco.tobacco_seeds_item": "Dohánymag",
+    "item.bettertobacco.dried_tobacco_item": "Szárított dohány",
+    "item.bettertobacco.tobacco_filter_item": "Dohányszűrő",
+    "item.bettertobacco.cigarette_item": "Cigaretta"
 }
