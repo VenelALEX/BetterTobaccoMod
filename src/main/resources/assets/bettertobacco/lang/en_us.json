@@ -1,4 +1,8 @@
 {
 	"itemGroup.bettertobacco.group": "Better Tobacco",
-	"item.bettertobacco.raw_tobacco_item": "Raw Tobacco"
+	"item.bettertobacco.raw_tobacco_item": "Raw Tobacco",
+	"item.bettertobacco.tobacco_seeds_item": "Tobacco seeds",
+	"item.bettertobacco.dried_tobacco_item": "Dried Tobacco",
+	"item.bettertobacco.tobacco_filter_item": "Tobacco Filter",
+	"item.bettertobacco.cigarette_item": "Cigarette"
 }
