@@ -5,6 +5,6 @@ import venelalex.bettertobacco.itemgroup.TobaccoItemGroup;
 
 public class BetterTobaccoItemGroups {
 	
-	public static final TobaccoItemGroup my_Item_Group = new TobaccoItemGroup("group", () -> Items.WHEAT);
+	public static final TobaccoItemGroup my_Item_Group = new TobaccoItemGroup("group", () -> BetterTobaccoItems.TOBACCO_SEEDS);
 	
 }
