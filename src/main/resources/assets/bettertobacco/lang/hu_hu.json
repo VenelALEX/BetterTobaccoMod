@@ -4,5 +4,10 @@
     "item.bettertobacco.tobacco_seeds_item": "Dohánymag",
     "item.bettertobacco.dried_tobacco_item": "Szárított dohány",
     "item.bettertobacco.tobacco_filter_item": "Dohányszűrő",
-    "item.bettertobacco.cigarette_item": "Cigaretta"
+    "item.bettertobacco.cigarette_item": "Cigaretta",
+    "item.bettertobacco.snus_item": "Snus",
+	"item.bettertobacco.used_snus_item": "Used Snus",
+	"item.bettertobacco.snus_can_item": "Snus can",
+	"item.bettertobacco.tobacco_essence_item": "Tobacco Essence",
+	"item.bettertobacco.tobacco_ingot_item": "Tobacco Ingot"
 }

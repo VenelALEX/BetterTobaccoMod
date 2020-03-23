@@ -7,8 +7,8 @@ displayName="Better Tobacco" #mandatory
 logoFile="bt_logo.png"
 credits="With lots of love and passion FROM and FOR tobacco lovers <3" #optional
 authors="VenelALEX, fISHICAL"
-issueTrackerURL="https://github.com/AlexanderBrenner/BetterTobaccoMod/issues"
-displayURL="https://github.com/AlexanderBrenner/BetterTobaccoMod"
+issueTrackerURL="https://github.com/VenelALEX/BetterTobaccoMod/issues"
+displayURL="https://github.com/VenelALEX/BetterTobaccoMod"
 description='''
 The BetterTobacco Mod aims to implement tobacco and various products from the tobacco industry in Minecraft.
 Please respect the fact that you are not allowed to smoke until you reach the age of 18. :)
@@ -16,14 +16,14 @@ Please respect the fact that you are not allowed to smoke until you reach the ag
 
 Visit Mod-Creators on GitHub:
 
-https://github.com/AlexanderBrenner
+https://github.com/VenelALEX
 https://github.com/konstfish
 
 ----------------------------------
 
 Also check out our GitHub Repo for announcments and updates:
 
-https://github.com/AlexanderBrenner/BetterTobaccoMod
+https://github.com/VenelALEX/BetterTobaccoMod
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.bettertobacco]] #optional
