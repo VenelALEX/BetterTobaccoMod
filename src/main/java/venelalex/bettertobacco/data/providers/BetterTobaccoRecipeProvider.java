@@ -27,6 +27,8 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		driedTobaccoSmelting(consumer);
 		snusRecipe(consumer);
 		snusCanRecipe(consumer);
+		tobaccoEssenceRecipe(consumer);
+		tobaccoIngotRecipe(consumer);
 	}
 	
 	//Crafting Recipes
@@ -75,6 +77,28 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		.key('I', net.minecraft.item.Items.IRON_INGOT)
 		.addCriterion("I hope your are at least at the age of 18 :P but it's just a snus can", hasItem(net.minecraft.item.Items.PAPER))
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "snus_can_recipe"));
+	}
+	
+	private void tobaccoEssenceRecipe(Consumer<IFinishedRecipe> consumer) {
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_ESSENCE, 1)//
+		.patternLine("NNN")//
+		.patternLine("NTN")//
+		.patternLine("NNN")//
+		.key('N', net.minecraft.item.Items.IRON_NUGGET)
+		.key('T', BetterTobaccoItems.DRIED_TOBACCO)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco essence", hasItem(net.minecraft.item.Items.IRON_NUGGET))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_essence_recipe"));
+	}
+	
+	private void tobaccoIngotRecipe(Consumer<IFinishedRecipe> consumer) {
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_INGOT, 1)//
+		.patternLine("TTT")//
+		.patternLine("TDT")//
+		.patternLine("TTT")//
+		.key('D', net.minecraft.item.Items.DIAMOND)
+		.key('T', BetterTobaccoItems.TOBACCO_ESSENCE)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco ingot", hasItem(net.minecraft.item.Items.DIAMOND))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_ingot_recipe"));
 	}
 	
 	//Smelting Recipes
