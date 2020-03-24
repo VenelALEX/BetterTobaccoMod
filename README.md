@@ -16,14 +16,12 @@
 
 ## Screenshots
 
-- Items
-![General](etc/V0.0.1/prev1.jpg)
-
-- Crops
-![General](etc/V0.0.1/prev2.jpg)
-
-- Items
-![General](etc/V0.0.1/prev3.jpg)
+Items            |  Crops
+:-------------------------:|:-------------------------:
+![General](etc/V0.0.1/prev1.jpg)  |  ![General](etc/V0.0.1/prev2.jpg)
+:-------------------------:|:-------------------------:
+Items                | ...
+![General](etc/V0.0.1/prev3.jpg) | .
 
 
 ## Supported Languages
@@ -47,11 +45,13 @@
 - [ ] Add Hookah Tobacco
 
 ### Add Blocks (Model, Textures, Lang, Functionality)
-- [ ] Add Hookah usw...
+- [ ] Add Hookah
 
 ### Add Concepts for:
 - [ ] Hookah
 - [ ] Biomes
+- [ ] Custom Armor
+- [ ] Custom Tools & Weapons
 - [ ] Custom Mobs
 
 ### Like our work?
