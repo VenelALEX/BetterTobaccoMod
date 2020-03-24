@@ -1,8 +1,14 @@
 {
     "itemGroup.bettertobacco.group": "Better Tobacco",
-    "item.bettertobacco.raw_tobacco_item": "Nyers dohÃ¡ny",
-    "item.bettertobacco.tobacco_seeds_item": "DohÃ¡nymag",
-    "item.bettertobacco.dried_tobacco_item": "SzÃ¡rÃ­tott dohÃ¡ny",
-    "item.bettertobacco.tobacco_filter_item": "DohÃ¡nyszÅ±rÅ‘",
-    "item.bettertobacco.cigarette_item": "Cigaretta"
+    "item.bettertobacco.raw_tobacco_item": "Nyers dohany",
+    "item.bettertobacco.tobacco_seeds_item": "Dohanymag",
+    "item.bettertobacco.dried_tobacco_item": "Szaratott dohany",
+    "item.bettertobacco.tobacco_filter_item": "Dohanysza±ra‘",
+    "item.bettertobacco.cigarette_item": "Cigaretta",
+    "item.bettertobacco.snus_item": "Snüüsz",
+	"item.bettertobacco.used_snus_item": "Hasznalt snüssz",
+	"item.bettertobacco.snus_can_item": "Snüssz dobosz",
+	"item.bettertobacco.tobacco_essence_item": "Dohany eszencia",
+	"item.bettertobacco.tobacco_ingot_item": "Dohanyrud",
+	"item.bettertobacco.used_cigarette_item": "Used Cigarette"
 }

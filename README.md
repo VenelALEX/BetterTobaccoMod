@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/badge/license-LGPL-brightgreen.svg)](https://github.com/AlexanderBrenner/BetterTobaccoMod/blob/master/LICENSE.txt)
 [![MinecraftVersion](https://img.shields.io/static/v1?label=Minecraft&message=1.14.4&color=brightgreen)](http://files.minecraftforge.net/)
 [![Build](https://github.com/AlexanderBrenner/BetterTobaccoMod/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)](https://github.com/AlexanderBrenner/BetterTobaccoMod/actions)
+[![Donate](https://img.shields.io/badge/Donate-Paypal-blue)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=a.reinhardbrenner%40gmail.com&item_name=Development+of+BetterTobaccoMod&currency_code=EUR&source=url)
 
 </div>
 
@@ -34,6 +35,7 @@
 - [x] HR 🇭🇷
 - [x] BA 🇧🇦
 - [x] HU 🇭🇺
+- [x] TR 🇹🇷
 
 ## TODO
 
@@ -51,3 +53,8 @@
 - [ ] Hookah
 - [ ] Biomes
 - [ ] Custom Mobs
+
+### Like our work?
+
+*Every donation is welcome!*
+[![Donate](https://img.shields.io/badge/Donate-Paypal-blue)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=a.reinhardbrenner%40gmail.com&item_name=Development+of+BetterTobaccoMod&currency_code=EUR&source=url)

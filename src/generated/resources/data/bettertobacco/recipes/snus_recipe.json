@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FSF",
+    "SES",
+    "FSF"
+  ],
+  "key": {
+    "F": {
+      "item": "bettertobacco:tobacco_filter_item"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "bettertobacco:tobacco_essence_item"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:snus_item"
+  }
+}

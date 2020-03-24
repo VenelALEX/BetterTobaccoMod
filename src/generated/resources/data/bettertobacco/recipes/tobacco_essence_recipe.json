@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "T": {
+      "item": "bettertobacco:dried_tobacco_item"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:tobacco_essence_item"
+  }
+}

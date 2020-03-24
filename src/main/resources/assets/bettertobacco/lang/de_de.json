@@ -4,5 +4,11 @@
 	"item.bettertobacco.tobacco_seeds_item": "Tabaksamen",
 	"item.bettertobacco.dried_tobacco_item": "Getrockneter Tabak",
 	"item.bettertobacco.tobacco_filter_item": "Tabak Filter",
-	"item.bettertobacco.cigarette_item": "Zigarette"
+	"item.bettertobacco.cigarette_item": "Zigarette",
+	"item.bettertobacco.snus_item": "Snus",
+	"item.bettertobacco.used_snus_item": "Benutztes Snus",
+	"item.bettertobacco.snus_can_item": "Snusdose",
+	"item.bettertobacco.tobacco_essence_item": "Tabak-Essenz",
+	"item.bettertobacco.tobacco_ingot_item": "Tabakbarren",
+	"item.bettertobacco.used_cigarette_item": "Benutzte Zigarette"
 }

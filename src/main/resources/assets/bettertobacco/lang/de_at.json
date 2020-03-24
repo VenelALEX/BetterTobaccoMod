@@ -3,6 +3,12 @@
 	"item.bettertobacco.raw_tobacco_item": "Rocha Tabak",
 	"item.bettertobacco.tobacco_seeds_item": "Tabakpflaunzn",
 	"item.bettertobacco.dried_tobacco_item": "Trickata Tabak",
-	"item.bettertobacco.tobacco_filter_item": "Tabak Füta",
-	"item.bettertobacco.cigarette_item": "Tschick"
+	"item.bettertobacco.tobacco_filter_item": "Tabak Filta",
+	"item.bettertobacco.cigarette_item": "Tschick",
+	"item.bettertobacco.snus_item": "Schnusl",
+	"item.bettertobacco.used_snus_item": "Ogranztes Schnusl",
+	"item.bettertobacco.snus_can_item": "Snuspackl",
+	"item.bettertobacco.tobacco_essence_item": "Tabakessenz",
+	"item.bettertobacco.tobacco_ingot_item": "Tabakwiafl",
+	"item.bettertobacco.used_cigarette_item": "Ogranzte Tschick"
 }

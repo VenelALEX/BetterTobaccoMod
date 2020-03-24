@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TDT",
+    "TTT"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "tag": "bettertobacco:used_tobacco"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:tobacco_ingot_item"
+  }
+}

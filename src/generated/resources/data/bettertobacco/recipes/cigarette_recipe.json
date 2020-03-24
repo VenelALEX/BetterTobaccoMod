@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "PPP",
-    "FTT",
+    "FDD",
     "PPP"
   ],
   "key": {
@@ -12,7 +12,7 @@
     "F": {
       "item": "bettertobacco:tobacco_filter_item"
     },
-    "T": {
+    "D": {
       "item": "bettertobacco:dried_tobacco_item"
     }
   },

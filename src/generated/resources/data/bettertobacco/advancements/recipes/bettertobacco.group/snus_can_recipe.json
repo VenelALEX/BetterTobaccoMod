@@ -2,11 +2,11 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bettertobacco:cigarette_recipe"
+      "bettertobacco:snus_can_recipe"
     ]
   },
   "criteria": {
-    "I hope your are at least at the age of 18 :P but it\u0027s just a cigarette": {
+    "I hope your are at least at the age of 18 :P but it\u0027s just a snus can": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bettertobacco:cigarette_recipe"
+        "recipe": "bettertobacco:snus_can_recipe"
       }
     }
   },
   "requirements": [
     [
-      "I hope your are at least at the age of 18 :P but it\u0027s just a cigarette",
+      "I hope your are at least at the age of 18 :P but it\u0027s just a snus can",
       "has_the_recipe"
     ]
   ]

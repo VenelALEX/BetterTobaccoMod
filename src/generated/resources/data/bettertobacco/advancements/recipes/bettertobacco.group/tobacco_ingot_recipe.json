@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bettertobacco:cigarette_recipe"
+      "bettertobacco:tobacco_ingot_recipe"
     ]
   },
   "criteria": {
-    "I hope your are at least at the age of 18 :P but it\u0027s just a cigarette": {
+    "I hope your are at least at the age of 18 :P but it\u0027s just a tobacco ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:paper"
+            "item": "minecraft:diamond"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bettertobacco:cigarette_recipe"
+        "recipe": "bettertobacco:tobacco_ingot_recipe"
       }
     }
   },
   "requirements": [
     [
-      "I hope your are at least at the age of 18 :P but it\u0027s just a cigarette",
+      "I hope your are at least at the age of 18 :P but it\u0027s just a tobacco ingot",
       "has_the_recipe"
     ]
   ]
