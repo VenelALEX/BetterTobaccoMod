@@ -5,10 +5,10 @@
 	"item.bettertobacco.dried_tobacco_item": "суви дуван",
 	"item.bettertobacco.tobacco_filter_item": "Дувански филтер",
 	"item.bettertobacco.cigarette_item": "Цигарета",
-	"item.bettertobacco.snus_item": "Snus",
-	"item.bettertobacco.used_snus_item": "Used Snus",
-	"item.bettertobacco.snus_can_item": "Snus can",
-	"item.bettertobacco.tobacco_essence_item": "Tobacco Essence",
-	"item.bettertobacco.tobacco_ingot_item": "Tobacco Ingot",
+	"item.bettertobacco.snus_item": "снус",
+	"item.bettertobacco.used_snus_item": "рабљени снус",
+	"item.bettertobacco.snus_can_item": "Снус пакет",
+	"item.bettertobacco.tobacco_essence_item": "духан суштина",
+	"item.bettertobacco.tobacco_ingot_item": "Дуванска руда",
 	"item.bettertobacco.used_cigarette_item": "Used Cigarette"
 }
