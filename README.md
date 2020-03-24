@@ -34,25 +34,6 @@ Items                | ...
 - [x] HU 🇭🇺
 - [x] TR 🇹🇷
 
-## TODO
-
-### Add Items (Model, Textures, Lang, Functionality)
-- [x] Add Tobacco Seeds
-- [x] Add Dried Tobacco
-- [x] Add Cigarettes
-- [ ] Add *Suprise* Item
-- [ ] Add Hookah Tobacco
-
-### Add Blocks (Model, Textures, Lang, Functionality)
-- [ ] Add Hookah
-
-### Add Concepts for:
-- [ ] Hookah
-- [ ] Biomes
-- [ ] Custom Armor
-- [ ] Custom Tools & Weapons
-- [ ] Custom Mobs
-
 ### Like our work?
 
 *Every donation is welcome!*
