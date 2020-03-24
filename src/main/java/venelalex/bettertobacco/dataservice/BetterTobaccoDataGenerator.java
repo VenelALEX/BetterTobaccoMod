@@ -6,6 +6,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import venelalex.bettertobacco.bettertobacco;
+import venelalex.bettertobacco.data.providers.BetterTobaccoItemTagProvider;
 import venelalex.bettertobacco.data.providers.BetterTobaccoLootTableProvider;
 import venelalex.bettertobacco.data.providers.BetterTobaccoRecipeProvider;
 
@@ -19,5 +20,7 @@ public class BetterTobaccoDataGenerator {
 		my_generator.addProvider(new BetterTobaccoRecipeProvider(my_generator));
 		
 		my_generator.addProvider(new BetterTobaccoLootTableProvider(my_generator));
+		
+		my_generator.addProvider(new BetterTobaccoItemTagProvider(my_generator));
 	}
 }

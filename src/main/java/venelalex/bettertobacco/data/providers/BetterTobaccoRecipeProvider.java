@@ -7,11 +7,14 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.data.RecipeProvider;
 import net.minecraft.data.ShapedRecipeBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.util.IItemProvider;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.Tags.Items;
 import venelalex.bettertobacco.bettertobacco;
 import venelalex.bettertobacco.init.BetterTobaccoItems;
+import venelalex.bettertobacco.init.BetterTobaccoTags;
 import venelalex.bettertobacco.item.RawTobacco;
 
 public class BetterTobaccoRecipeProvider extends RecipeProvider{
@@ -91,12 +94,13 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 	}
 	
 	private void tobaccoIngotRecipe(Consumer<IFinishedRecipe> consumer) {
+			
 		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_INGOT, 1)//
 		.patternLine("TTT")//
 		.patternLine("TDT")//
 		.patternLine("TTT")//
 		.key('D', net.minecraft.item.Items.DIAMOND)
-		.key('T', BetterTobaccoItems.USED_SNUS)
+		.key('T', BetterTobaccoTags.Items.USED_TOBACCO)
 		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco ingot", hasItem(net.minecraft.item.Items.DIAMOND))
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_ingot_recipe"));
 	}

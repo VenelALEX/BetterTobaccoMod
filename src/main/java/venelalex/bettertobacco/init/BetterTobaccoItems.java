@@ -14,6 +14,7 @@ import venelalex.bettertobacco.item.TobaccoEssence;
 import venelalex.bettertobacco.item.TobaccoFilter;
 import venelalex.bettertobacco.item.TobaccoIngot;
 import venelalex.bettertobacco.item.TobaccoSeeds;
+import venelalex.bettertobacco.item.UsedCigarette;
 import venelalex.bettertobacco.item.UsedSnus;
 
 @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
@@ -29,6 +30,7 @@ public class BetterTobaccoItems {
 	public static final SnusCan SNUS_CAN = new SnusCan();
 	public static final TobaccoEssence TOBACCO_ESSENCE = new TobaccoEssence();
 	public static final TobaccoIngot TOBACCO_INGOT = new TobaccoIngot();
+	public static final UsedCigarette USED_CIGARETTE = new UsedCigarette();
 	
 	@SubscribeEvent
 	public static void register(final net.minecraftforge.event.RegistryEvent.Register<Item> event) 
@@ -45,6 +47,7 @@ public class BetterTobaccoItems {
 		registry.register(SNUS_CAN.setRegistryName(bettertobacco.MY_MOD_ID, "snus_can_item"));
 		registry.register(TOBACCO_ESSENCE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_essence_item"));
 		registry.register(TOBACCO_INGOT.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_ingot_item"));
+		registry.register(USED_CIGARETTE.setRegistryName(bettertobacco.MY_MOD_ID, "used_cigarette_item"));
 	}
 
 }

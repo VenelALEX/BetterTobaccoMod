@@ -10,7 +10,7 @@
       "item": "minecraft:diamond"
     },
     "T": {
-      "item": "bettertobacco:used_snus_item"
+      "tag": "bettertobacco:used_tobacco"
     }
   },
   "result": {
