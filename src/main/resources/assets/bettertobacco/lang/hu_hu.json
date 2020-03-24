@@ -1,13 +1,13 @@
 {
     "itemGroup.bettertobacco.group": "Better Tobacco",
-    "item.bettertobacco.raw_tobacco_item": "Nyers doh√°ny",
-    "item.bettertobacco.tobacco_seeds_item": "Doh√°nymag",
-    "item.bettertobacco.dried_tobacco_item": "Sz√°r√≠tott doh√°ny",
-    "item.bettertobacco.tobacco_filter_item": "Doh√°nysz≈±r≈ë",
+    "item.bettertobacco.raw_tobacco_item": "Nyers dohany",
+    "item.bettertobacco.tobacco_seeds_item": "Dohanymag",
+    "item.bettertobacco.dried_tobacco_item": "Szaratott dohany",
+    "item.bettertobacco.tobacco_filter_item": "Dohanysza±raë",
     "item.bettertobacco.cigarette_item": "Cigaretta",
-    "item.bettertobacco.snus_item": "Snus",
-	"item.bettertobacco.used_snus_item": "Used Snus",
-	"item.bettertobacco.snus_can_item": "Snus can",
-	"item.bettertobacco.tobacco_essence_item": "Tobacco Essence",
-	"item.bettertobacco.tobacco_ingot_item": "Tobacco Ingot"
+    "item.bettertobacco.snus_item": "Sn¸¸sz",
+	"item.bettertobacco.used_snus_item": "Hasznalt sn¸ssz",
+	"item.bettertobacco.snus_can_item": "Sn¸ssz dobosz",
+	"item.bettertobacco.tobacco_essence_item": "Dohany eszencia",
+	"item.bettertobacco.tobacco_ingot_item": "Dohanyrud"
 }

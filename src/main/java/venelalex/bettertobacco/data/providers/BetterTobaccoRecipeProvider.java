@@ -96,7 +96,7 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		.patternLine("TDT")//
 		.patternLine("TTT")//
 		.key('D', net.minecraft.item.Items.DIAMOND)
-		.key('T', BetterTobaccoItems.TOBACCO_ESSENCE)
+		.key('T', BetterTobaccoItems.USED_SNUS)
 		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco ingot", hasItem(net.minecraft.item.Items.DIAMOND))
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_ingot_recipe"));
 	}
