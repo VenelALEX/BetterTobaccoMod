@@ -15,7 +15,7 @@
 </div>
 
 ## Information
----
+
 🔞
 Please keep in mind that this mods goal isn't to glorify the consumption of tobacco products. The consumption of tobacco products is from the age of 18 onwards in most EU countries.
 Smoking damages your health, therefore we don't recommend consumption in real life.
