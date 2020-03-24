@@ -22,7 +22,7 @@ Smoking damages your health, therefore we don't recommend consumption in real li
 🔞
 ---
 
-Better Tobacco is a Minecraft 1.14.4 Mod. It aims to add diverse tobacco products to Minecraft. This mod includes many common Tobacco Products, like cigarettes, snus and hookah tobacco as well as Side Features like Plants, Armor, Tools, Biomes and Mobs.
+Better Tobacco is a Minecraft 1.14.4 Mod, which aims to add diverse tobacco products to Minecraft. This mod includes many common Tobacco Products, like cigarettes, snus and hookah tobacco as well as Side Features like Plants, Armor, Tools, Biomes and Mobs.
 
 ### Getting Started
 Everything in BetterTobacco depends on one item: Raw Tobacco. Raw Tobacco can be obtained by harvesting Tobacco Plants, which generate in the Mods Tobacco Biome. Tobacco Seed, which is required to grow your own Tobacco Plants, is also acquired through Tobacco Plants. Dried Tobacco, the core element of all Tobacco Products, can be manufactured by smelting Raw Tobacco.
@@ -37,9 +37,9 @@ Please see this GitHub Repos [Wiki](https://github.com/VenelALEX/BetterTobaccoMo
 
 Items            |  Crops
 :-------------------------:|:-------------------------:
-![General](etc/V0.0.1/prev1.jpg)  |  ![General](etc/V0.0.1/prev2.jpg)
+![General](etc/V0.0.2/snusPrev.jpg)  |  ![General](etc/V0.0.1/prev2.jpg)
 Items                | ...
-![General](etc/V0.0.1/prev3.jpg) | .
+![General](V0.0.2/snusPrev2.jpg) | .
 
 
 ## Supported Languages
