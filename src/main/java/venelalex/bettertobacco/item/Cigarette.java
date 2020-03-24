@@ -32,7 +32,7 @@ public class Cigarette extends Item{
 		//Negative effects
 		playerIn.addPotionEffect(new EffectInstance(Effects.INSTANT_DAMAGE, 1, 1));
 		
-		ItemStack giveStack = new ItemStack(BetterTobaccoItems.USED_SNUS, 1);
+		ItemStack giveStack = new ItemStack(BetterTobaccoItems.USED_CIGARETTE, 1);
 		
 		return ActionResult.newResult(ActionResultType.SUCCESS, giveStack);
 	}

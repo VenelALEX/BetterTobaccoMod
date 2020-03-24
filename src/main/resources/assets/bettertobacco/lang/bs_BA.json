@@ -6,9 +6,9 @@
 	"item.bettertobacco.tobacco_filter_item": "Filter za duhana",
 	"item.bettertobacco.cigarette_item": "Cigareta",
 	"item.bettertobacco.snus_item": "Snus",
-	"item.bettertobacco.used_snus_item": "Kullanılan Snus",
-	"item.bettertobacco.snus_can_item": "Snus olabilir",
-	"item.bettertobacco.tobacco_essence_item": "Tobacco Essence",
-	"item.bettertobacco.tobacco_ingot_item": "Tobacco Ingot",
+	"item.bettertobacco.used_snus_item": "koriscen snus",
+	"item.bettertobacco.snus_can_item": "snus pakovanje",
+	"item.bettertobacco.tobacco_essence_item": "Duvanska essencija",
+	"item.bettertobacco.tobacco_ingot_item": "Ruda od duhan",
 	"item.bettertobacco.used_cigarette_item": "Used Cigarette"
 }
