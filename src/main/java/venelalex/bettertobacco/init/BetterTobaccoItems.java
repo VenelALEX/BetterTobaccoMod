@@ -1,5 +1,6 @@
 package venelalex.bettertobacco.init;
 
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -10,10 +11,19 @@ import venelalex.bettertobacco.item.DriedTobacco;
 import venelalex.bettertobacco.item.RawTobacco;
 import venelalex.bettertobacco.item.Snus;
 import venelalex.bettertobacco.item.SnusCan;
+import venelalex.bettertobacco.item.TobaccoAxe;
+import venelalex.bettertobacco.item.TobaccoChestplate;
 import venelalex.bettertobacco.item.TobaccoEssence;
 import venelalex.bettertobacco.item.TobaccoFilter;
+import venelalex.bettertobacco.item.TobaccoHelmet;
+import venelalex.bettertobacco.item.TobaccoHoe;
 import venelalex.bettertobacco.item.TobaccoIngot;
+import venelalex.bettertobacco.item.TobaccoLeggins;
+import venelalex.bettertobacco.item.TobaccoPickaxe;
 import venelalex.bettertobacco.item.TobaccoSeeds;
+import venelalex.bettertobacco.item.TobaccoShoes;
+import venelalex.bettertobacco.item.TobaccoShovel;
+import venelalex.bettertobacco.item.TobaccoSword;
 import venelalex.bettertobacco.item.UsedCigarette;
 import venelalex.bettertobacco.item.UsedSnus;
 
@@ -31,6 +41,17 @@ public class BetterTobaccoItems {
 	public static final UsedSnus USED_SNUS = new UsedSnus();
 	public static final TobaccoEssence TOBACCO_ESSENCE = new TobaccoEssence();
 	public static final TobaccoIngot TOBACCO_INGOT = new TobaccoIngot();
+	
+	public static final TobaccoHelmet TOBACCO_HELMET = new TobaccoHelmet();
+	public static final TobaccoChestplate TOBACCO_CHESTPLATE = new TobaccoChestplate();
+	public static final TobaccoLeggins TOBACCO_LEGGINS = new TobaccoLeggins();
+	public static final TobaccoShoes TOBACCO_SHOES = new TobaccoShoes();
+	
+	public static final TobaccoAxe TOBACCO_AXE = new TobaccoAxe();
+	public static final TobaccoPickaxe TOBACCO_PICKAXE = new TobaccoPickaxe();
+	public static final TobaccoHoe TOBACCO_HOE = new TobaccoHoe();
+	public static final TobaccoShovel TOBACCO_SHOVEL = new TobaccoShovel();
+	public static final TobaccoSword TOBACCO_SWORD = new TobaccoSword();
 	
 	
 	@SubscribeEvent
@@ -50,6 +71,16 @@ public class BetterTobaccoItems {
 		registry.register(TOBACCO_ESSENCE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_essence_item"));
 		registry.register(TOBACCO_INGOT.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_ingot_item"));
 		
+		registry.register(TOBACCO_HELMET.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_helmet_item"));
+		registry.register(TOBACCO_CHESTPLATE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_chestplate_item"));
+		registry.register(TOBACCO_LEGGINS.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_leggins_item"));
+		registry.register(TOBACCO_SHOES.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_shoes_item"));
+		
+		registry.register(TOBACCO_AXE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_axe_item"));
+		registry.register(TOBACCO_PICKAXE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_pickaxe_item"));
+		registry.register(TOBACCO_HOE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_hoe_item"));
+		registry.register(TOBACCO_SHOVEL.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_shovel_item"));
+		registry.register(TOBACCO_SWORD.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_sword_item"));
 	}
 
 }
