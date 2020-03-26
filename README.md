@@ -53,6 +53,8 @@ Items                | ...
 - [x] HU 🇭🇺
 - [x] TR 🇹🇷
 
+@Flag icons - http://www.icondrawer.com/
+
 ### Like our work?
 
 *Every donation is welcome!*
