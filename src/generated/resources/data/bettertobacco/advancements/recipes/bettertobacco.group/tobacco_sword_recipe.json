@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bettertobacco:tobacco_sword_recipe"
+    ]
+  },
+  "criteria": {
+    "I hope your are at least at the age of 18 :P but it\u0027s just a tobacco sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettertobacco:tobacco_ingot_item"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettertobacco:tobacco_sword_recipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "I hope your are at least at the age of 18 :P but it\u0027s just a tobacco sword",
+      "has_the_recipe"
+    ]
+  ]
+}

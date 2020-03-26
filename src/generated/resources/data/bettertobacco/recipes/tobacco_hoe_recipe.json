@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "bettertobacco:tobacco_ingot_item"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:tobacco_hoe_item"
+  }
+}

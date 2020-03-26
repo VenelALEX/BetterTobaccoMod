@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T T",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "bettertobacco:tobacco_ingot_item"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:tobacco_chestplate_item"
+  }
+}

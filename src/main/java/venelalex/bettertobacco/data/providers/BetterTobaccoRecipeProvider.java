@@ -32,6 +32,15 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		snusCanRecipe(consumer);
 		tobaccoEssenceRecipe(consumer);
 		tobaccoIngotRecipe(consumer);
+		tobaccoHelmetRecipe(consumer);
+		tobaccoChestplateRecipe(consumer);
+		tobaccoLegginsRecipe(consumer);
+		tobaccoShoesRecipe(consumer);
+		tobaccoAxeRecipe(consumer);
+		tobaccoPickaxeRecipe(consumer);
+		tobaccoHoeRecipe(consumer);
+		tobaccoShovelRecipe(consumer);
+		tobaccoSwordRecipe(consumer);
 	}
 	
 	//Crafting Recipes
@@ -103,6 +112,110 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		.key('T', BetterTobaccoTags.Items.USED_TOBACCO)
 		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco ingot", hasItem(net.minecraft.item.Items.DIAMOND))
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_ingot_recipe"));
+	}
+	
+	private void tobaccoHelmetRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_HELMET, 1)//
+		.patternLine("TTT")//
+		.patternLine("T T")//
+		.patternLine("   ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco helmet", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_helmet_recipe"));
+	}
+	
+	private void tobaccoChestplateRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_CHESTPLATE, 1)//
+		.patternLine("T T")//
+		.patternLine("TTT")//
+		.patternLine("TTT")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco chestplate", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_chestplate_recipe"));
+	}
+	
+	private void tobaccoLegginsRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_LEGGINS, 1)//
+		.patternLine("TTT")//
+		.patternLine("T T")//
+		.patternLine("T T")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco Leggins", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_leggins_recipe"));
+	}
+	
+	private void tobaccoShoesRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_SHOES, 1)//
+		.patternLine("T T")//
+		.patternLine("T T")//
+		.patternLine("   ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just tobacco shoes", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_shoes_recipe"));
+	}
+	
+	private void tobaccoAxeRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_AXE, 1)//
+		.patternLine("TT ")//
+		.patternLine("TS ")//
+		.patternLine(" S ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.key('S', net.minecraft.item.Items.STICK)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco axe", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_axe_recipe"));
+	}
+	
+	private void tobaccoPickaxeRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_PICKAXE, 1)//
+		.patternLine("TTT")//
+		.patternLine(" S ")//
+		.patternLine(" S ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.key('S', net.minecraft.item.Items.STICK)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco pickaxe", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_pickaxe_recipe"));
+	}
+
+	private void tobaccoHoeRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_HOE, 1)//
+		.patternLine("TT ")//
+		.patternLine(" S ")//
+		.patternLine(" S ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.key('S', net.minecraft.item.Items.STICK)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco hoe", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_hoe_recipe"));
+	}
+	
+	private void tobaccoShovelRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_SHOVEL, 1)//
+		.patternLine(" T ")//
+		.patternLine(" S ")//
+		.patternLine(" S ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.key('S', net.minecraft.item.Items.STICK)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco shovel", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_shovel_recipe"));
+	}
+	
+	private void tobaccoSwordRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.TOBACCO_SWORD, 1)//
+		.patternLine(" T ")//
+		.patternLine(" T ")//
+		.patternLine(" S ")//
+		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
+		.key('S', net.minecraft.item.Items.STICK)
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco sword", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_sword_recipe"));
 	}
 	
 	//Smelting Recipes
