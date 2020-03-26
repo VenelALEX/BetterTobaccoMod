@@ -44,8 +44,8 @@ Items                | ...
 
 ## Supported Languages
 
-![General](etc/flags/at.png) ![General](etc/flags/de.png)  ![General](etc/flags/ch.png) ![General](etc/flags/BA.png) ![General](etc/flags/hr.png) ![General](etc/flags/sr.png) 
-![General](etc/flags/at.png) ![General](etc/flags/de.png)  ![General](etc/flags/ch.png) ![General](etc/flags/BA.png) ![General](etc/flags/hr.png) ![General](etc/flags/sr.png) 
+![General](etc/flags/at.png) ![General](etc/flags/de.png)  ![General](etc/flags/ch.png) ![General](etc/flags/BA.png) ![General](etc/flags/hr.png) ![General](etc/flags/sr.png) ![General](etc/flags/usa.png) ![General](etc/flags/hu.png) ![General](etc/flags/tr.png) 
+
 
 @Flag icons - http://www.icondrawer.com/
 
