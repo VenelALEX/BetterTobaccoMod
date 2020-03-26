@@ -8,7 +8,7 @@ import venelalex.bettertobacco.init.ToolMaterialList;
 public class TobaccoHoe extends HoeItem{
 
 	public TobaccoHoe() {
-		super(ToolMaterialList.tobacco, 6.0f, new Item.Properties().group(BetterTobaccoItemGroups.my_Item_Group));
+		super(ToolMaterialList.tobacco, 1.0f, new Item.Properties().group(BetterTobaccoItemGroups.my_Item_Group));
 		// TODO Auto-generated constructor stub
 	}
 }

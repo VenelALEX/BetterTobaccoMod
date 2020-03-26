@@ -10,5 +10,14 @@
 	"item.bettertobacco.snus_can_item": "Snuspackl",
 	"item.bettertobacco.tobacco_essence_item": "Tabakessenz",
 	"item.bettertobacco.tobacco_ingot_item": "Tabakwiafl",
-	"item.bettertobacco.used_cigarette_item": "Ogranzte Tschick"
+	"item.bettertobacco.used_cigarette_item": "Ogranzte Tschick",
+	"item.bettertobacco.tobacco_helmet_item": "Tabak Hölm",
+	"item.bettertobacco.tobacco_chestplate_item": "Tabak Brustpaunza",
+	"item.bettertobacco.tobacco_leggins_item": "Tabak Schutzhosn",
+	"item.bettertobacco.tobacco_shoes_item": "Tabak Schuach",
+	"item.bettertobacco.tobacco_axe_item": "Tabak Oxt",
+	"item.bettertobacco.tobacco_pickaxe_item": "Tabak Spitzhock",
+	"item.bettertobacco.tobacco_hoe_item": "Tabak Hock",
+	"item.bettertobacco.tobacco_shovel_item": "Tabak Schaufl",
+	"item.bettertobacco.tobacco_sword_item": "Tabak Schweat"
 }

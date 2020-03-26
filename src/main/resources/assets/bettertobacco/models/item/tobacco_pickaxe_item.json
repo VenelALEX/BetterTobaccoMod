@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures":
+	{
+		"layer0": "bettertobacco:item/tobacco_pickaxe_item"
+	}
+}

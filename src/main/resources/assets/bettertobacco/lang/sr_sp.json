@@ -10,5 +10,14 @@
 	"item.bettertobacco.snus_can_item": "Снус пакет",
 	"item.bettertobacco.tobacco_essence_item": "духан суштина",
 	"item.bettertobacco.tobacco_ingot_item": "Дуванска руда",
-	"item.bettertobacco.used_cigarette_item": "Used Cigarette"
+	"item.bettertobacco.used_cigarette_item": "Used Cigarette",
+	"item.bettertobacco.tobacco_helmet_item": "Tobacco Helmet",
+	"item.bettertobacco.tobacco_chestplate_item": "Tobacco Chestplate",
+	"item.bettertobacco.tobacco_leggins_item": "Tobacco Leggins",
+	"item.bettertobacco.tobacco_shoes_item": "Tobacco Shoes",
+	"item.bettertobacco.tobacco_axe_item": "Tobacco Axe",
+	"item.bettertobacco.tobacco_pickaxe_item": "Tobacco Pickaxe",
+	"item.bettertobacco.tobacco_hoe_item": "Tobacco Hoe",
+	"item.bettertobacco.tobacco_shovel_item": "Tobacco Shovel",
+	"item.bettertobacco.tobacco_sword_item": "Tobacco Sword"
 }

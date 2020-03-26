@@ -10,7 +10,7 @@ import venelalex.bettertobacco.bettertobacco;
 
 public enum ArmorMaterialList implements IArmorMaterial{
 
-	tobacco("tobacco", 400, new int[] {8, 10, 9, 7}, 25, BetterTobaccoItems.TOBACCO_INGOT, "entity.ender_dragon.growl", 1.0f);
+	tobacco("tobacco", 400, new int[] {5, 8, 10, 5}, 25, BetterTobaccoItems.TOBACCO_INGOT, "entity.ender_dragon.growl", 3.0f);
 	
 	private static final int[] max_damage_array = new int[] {13, 15, 16, 11};
 	private String name, equipSound;
