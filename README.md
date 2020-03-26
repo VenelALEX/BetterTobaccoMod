@@ -53,11 +53,6 @@ Items                | ...
 - [x] HU 🇭🇺
 - [x] TR 🇹🇷
 
-|   |   |   |
-|---|---|---|
-|   |   |   |
-|   |   |   |
-
 ### Like our work?
 
 *Every donation is welcome!*
