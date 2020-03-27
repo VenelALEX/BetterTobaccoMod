@@ -18,7 +18,7 @@ import venelalex.bettertobacco.init.BetterTobaccoItemGroups;
 public class SnusCan extends Item{
 
 	public SnusCan() {
-		super(new Item.Properties().group(BetterTobaccoItemGroups.my_Item_Group));
+		super(new Item.Properties().group(BetterTobaccoItemGroups.my_Item_Group).maxStackSize(1));
 		// TODO Auto-generated constructor stub
 	}
 	
@@ -48,6 +48,7 @@ public class SnusCan extends Item{
 		
 		return new ActionResult<>(ActionResultType.SUCCESS, playerIn.getHeldItem(handIn));
 	}
+	
 	
 	
 }

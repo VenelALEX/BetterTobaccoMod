@@ -143,8 +143,8 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		.patternLine("T T")//
 		.patternLine("T T")//
 		.key('T', BetterTobaccoItems.TOBACCO_INGOT)
-		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco Leggins", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
-		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_leggins_recipe"));
+		.addCriterion("I hope your are at least at the age of 18 :P but it's just a tobacco Leggings", hasItem(BetterTobaccoItems.TOBACCO_INGOT))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_leggings_recipe"));
 	}
 	
 	private void tobaccoShoesRecipe(Consumer<IFinishedRecipe> consumer) {

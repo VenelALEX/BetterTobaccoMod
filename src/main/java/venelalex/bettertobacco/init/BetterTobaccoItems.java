@@ -73,7 +73,7 @@ public class BetterTobaccoItems {
 		
 		registry.register(TOBACCO_HELMET.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_helmet_item"));
 		registry.register(TOBACCO_CHESTPLATE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_chestplate_item"));
-		registry.register(TOBACCO_LEGGINS.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_leggins_item"));
+		registry.register(TOBACCO_LEGGINS.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_leggings_item"));
 		registry.register(TOBACCO_SHOES.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_shoes_item"));
 		
 		registry.register(TOBACCO_AXE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_axe_item"));

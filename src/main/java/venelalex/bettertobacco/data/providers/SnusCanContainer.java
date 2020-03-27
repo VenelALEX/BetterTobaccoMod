@@ -130,7 +130,9 @@ public class SnusCanContainer extends Container{
 		return ((stack.getItem() instanceof SnusCan));
 	}
 	
+	
 	public boolean canTake(int slotId, Slot slot, int button, PlayerEntity player, ClickType clickType) {
+		
 		if(slotId == blocked || slotId <= itemHandler.getSlots() - 1 && isContainerItem(player.inventory.getItemStack())) {
 			return false;
 		}
@@ -150,5 +152,6 @@ public class SnusCanContainer extends Container{
 		
 		return true;
 	}
+	
 
 }
