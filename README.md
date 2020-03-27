@@ -38,8 +38,10 @@ Please see this GitHub Repos [Wiki](https://github.com/VenelALEX/BetterTobaccoMo
 Items            |  Crops
 :-------------------------:|:-------------------------:
 ![General](etc/V0.0.2/snusPrev.jpg)  |  ![General](etc/V0.0.1/prev2.jpg)
-Items                | ...
-![General](etc/V0.0.2/snusPrev2.jpg) | .
+Items                | Armor
+![General](etc/V0.0.2/snusPrev2.jpg) | ![General](etc/V0.0.3/armorPrev.jpg)
+Tools
+![General](etc/V0.0.3/toolPrev.jpg)
 
 
 ## Supported Languages
