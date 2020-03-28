@@ -27,7 +27,7 @@ public class SnusCanContainer extends Container{
 		for(int i= 0; i < this.itemHandler.getSlots(); i++) {
 			int x = 8 + 18 * (i % 9);
 			int y = 18 + 18 * (i / 9);
-			addSlot(new SlotItemHandler(this.itemHandler, i, x, y));
+			addSlot(new SlotSnus(this.itemHandler, i, x, y));
 		}
 		
 		final int rowCount = this.itemHandler.getSlots() / 9;
