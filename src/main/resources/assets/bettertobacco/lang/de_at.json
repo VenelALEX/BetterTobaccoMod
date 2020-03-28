@@ -19,5 +19,9 @@
 	"item.bettertobacco.tobacco_pickaxe_item": "Tabak Spitzhock",
 	"item.bettertobacco.tobacco_hoe_item": "Tabak Hock",
 	"item.bettertobacco.tobacco_shovel_item": "Tabak Schaufl",
-	"item.bettertobacco.tobacco_sword_item": "Tabak Schweat"
+	"item.bettertobacco.tobacco_sword_item": "Tabak Schweat",
+	"item.bettertobacco.dried_hemp_item": "Trickats Ganja",
+	"item.bettertobacco.raw_hemp_item": "Roches Ganja",
+	"item.bettertobacco.hemp_seeds_item": "Ganjapflaunzen",
+	"item.bettertobacco.joint_item": "Kolben"
 }

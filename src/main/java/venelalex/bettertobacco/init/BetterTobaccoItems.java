@@ -7,7 +7,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import venelalex.bettertobacco.bettertobacco;
 import venelalex.bettertobacco.item.Cigarette;
+import venelalex.bettertobacco.item.DriedHemp;
 import venelalex.bettertobacco.item.DriedTobacco;
+import venelalex.bettertobacco.item.HempSeeds;
+import venelalex.bettertobacco.item.Joint;
+import venelalex.bettertobacco.item.RawHemp;
 import venelalex.bettertobacco.item.RawTobacco;
 import venelalex.bettertobacco.item.Snus;
 import venelalex.bettertobacco.item.SnusCan;
@@ -53,6 +57,11 @@ public class BetterTobaccoItems {
 	public static final TobaccoShovel TOBACCO_SHOVEL = new TobaccoShovel();
 	public static final TobaccoSword TOBACCO_SWORD = new TobaccoSword();
 	
+	public static final RawHemp RAW_HEMP = new RawHemp();
+	public static final DriedHemp DRIED_HEMP = new DriedHemp();
+	public static final Joint JOINT = new Joint();
+	public static final HempSeeds HEMP_SEEDS = new HempSeeds();
+	
 	
 	@SubscribeEvent
 	public static void register(final net.minecraftforge.event.RegistryEvent.Register<Item> event) 
@@ -81,6 +90,11 @@ public class BetterTobaccoItems {
 		registry.register(TOBACCO_HOE.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_hoe_item"));
 		registry.register(TOBACCO_SHOVEL.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_shovel_item"));
 		registry.register(TOBACCO_SWORD.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_sword_item"));
+		
+		registry.register(RAW_HEMP.setRegistryName(bettertobacco.MY_MOD_ID, "raw_hemp_item"));
+		registry.register(DRIED_HEMP.setRegistryName(bettertobacco.MY_MOD_ID, "dried_hemp_item"));
+		registry.register(JOINT.setRegistryName(bettertobacco.MY_MOD_ID, "joint_item"));
+		registry.register(HEMP_SEEDS.setRegistryName(bettertobacco.MY_MOD_ID, "hemp_seeds_item"));
 	}
 
 }

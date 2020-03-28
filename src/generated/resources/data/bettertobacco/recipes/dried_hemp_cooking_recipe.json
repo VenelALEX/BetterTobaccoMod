@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bettertobacco:raw_hemp_item"
+  },
+  "result": "bettertobacco:dried_hemp_item",
+  "experience": 10.0,
+  "cookingtime": 20
+}

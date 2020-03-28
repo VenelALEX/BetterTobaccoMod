@@ -19,5 +19,9 @@
 	"item.bettertobacco.tobacco_pickaxe_item": "Tabak Spitzhacke",
 	"item.bettertobacco.tobacco_hoe_item": "Tabak Hacke",
 	"item.bettertobacco.tobacco_shovel_item": "Tabak Schaufel",
-	"item.bettertobacco.tobacco_sword_item": "Tabak Schwert"
+	"item.bettertobacco.tobacco_sword_item": "Tabak Schwert",
+	"item.bettertobacco.dried_hemp_item": "Getrockneter Hanf",
+	"item.bettertobacco.raw_hemp_item": "Roher Hanf",
+	"item.bettertobacco.hemp_seeds_item": "Hanfsamen",
+	"item.bettertobacco.joint_item": "Joint"
 }

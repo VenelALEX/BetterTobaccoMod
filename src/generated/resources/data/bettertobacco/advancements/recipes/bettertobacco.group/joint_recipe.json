@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bettertobacco:joint_recipe"
+    ]
+  },
+  "criteria": {
+    "Amsterdam - Jamaica dadadadada": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettertobacco:dried_hemp_item"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettertobacco:joint_recipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Amsterdam - Jamaica dadadadada",
+      "has_the_recipe"
+    ]
+  ]
+}

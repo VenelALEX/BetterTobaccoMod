@@ -63,7 +63,8 @@ public class BetterTobaccoLootTableProvider implements IDataProvider{
 	}
 	
 	protected void registerLootTables(BiConsumer<ResourceLocation, LootTable> consumer) {
-		registerBlock(BetterTobaccoBlocks.TOBACCO_PLANT, getTobaccoPlantLootTable(BetterTobaccoItems.RAW_TOBACCO, BetterTobaccoItems.TOBACCO_SEEDS), consumer);
+		registerBlock(BetterTobaccoBlocks.TOBACCO_PLANT, getPlantLootTable(BetterTobaccoItems.RAW_TOBACCO, BetterTobaccoItems.TOBACCO_SEEDS), consumer);
+		registerBlock(BetterTobaccoBlocks.HEMP_PLANT, getPlantLootTable(BetterTobaccoItems.RAW_HEMP, BetterTobaccoItems.HEMP_SEEDS), consumer);
 	}
 	
 	private static void registerBlock(Block block, LootTable lootTable, BiConsumer<ResourceLocation, LootTable> consumer) {
@@ -71,7 +72,7 @@ public class BetterTobaccoLootTableProvider implements IDataProvider{
 		consumer.accept(new ResourceLocation(registryName.getNamespace(), "blocks/" + registryName.getPath()), lootTable);
 	}
 	
-	private static LootTable getTobaccoPlantLootTable(IItemProvider itemProvider, IItemProvider itemProvider2) {
+	private static LootTable getPlantLootTable(IItemProvider itemProvider, IItemProvider itemProvider2) {
 		return LootTable.builder().setParameterSet(LootParameterSets.BLOCK)
 				.addLootPool(LootPool.builder()
 				.rolls( new RandomValueRange(1, 2))

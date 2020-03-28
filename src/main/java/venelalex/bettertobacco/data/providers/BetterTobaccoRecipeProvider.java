@@ -27,7 +27,6 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 	protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
 		tobaccoFilterRecipe(consumer);
 		cigaretteRecipe(consumer);
-		driedTobaccoSmelting(consumer);
 		snusRecipe(consumer);
 		snusCanRecipe(consumer);
 		tobaccoEssenceRecipe(consumer);
@@ -41,6 +40,11 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		tobaccoHoeRecipe(consumer);
 		tobaccoShovelRecipe(consumer);
 		tobaccoSwordRecipe(consumer);
+		jointRecipe(consumer);
+		
+		//Smelting
+		driedTobaccoSmelting(consumer);
+		driedHempSmelting(consumer);
 	}
 	
 	//Crafting Recipes
@@ -218,12 +222,31 @@ public class BetterTobaccoRecipeProvider extends RecipeProvider{
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "tobacco_sword_recipe"));
 	}
 	
+	private void jointRecipe(Consumer<IFinishedRecipe> consumer) {
+		
+		ShapedRecipeBuilder.shapedRecipe(BetterTobaccoItems.JOINT, 1)//
+		.patternLine("PPP")//
+		.patternLine("FHH")//
+		.patternLine("PPP")//
+		.key('F', BetterTobaccoItems.TOBACCO_FILTER)
+		.key('P', net.minecraft.item.Items.PAPER)
+		.key('H', BetterTobaccoItems.DRIED_HEMP)
+		.addCriterion("Amsterdam - Jamaica dadadadada", hasItem(BetterTobaccoItems.DRIED_HEMP))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "joint_recipe"));
+	}
+	
 	//Smelting Recipes
 	
 	private void driedTobaccoSmelting(Consumer<IFinishedRecipe> consumer) {
 		CookingRecipeBuilder.smeltingRecipe(Ingredient.fromItems(BetterTobaccoItems.RAW_TOBACCO), BetterTobaccoItems.DRIED_TOBACCO, 10, 20)
 		.addCriterion("Cook your tobacco!", hasItem(BetterTobaccoItems.RAW_TOBACCO))
 		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "dried_tobacco_cooking_recipe"));
+	}
+	
+	private void driedHempSmelting(Consumer<IFinishedRecipe> consumer) {
+		CookingRecipeBuilder.smeltingRecipe(Ingredient.fromItems(BetterTobaccoItems.RAW_HEMP), BetterTobaccoItems.DRIED_HEMP, 10, 20)
+		.addCriterion("Cook your hemp!", hasItem(BetterTobaccoItems.RAW_HEMP))
+		.build(consumer, new ResourceLocation(bettertobacco.MY_MOD_ID, "dried_hemp_cooking_recipe"));
 	}
 
 }

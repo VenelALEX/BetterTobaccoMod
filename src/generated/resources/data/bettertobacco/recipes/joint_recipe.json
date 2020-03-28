@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "FHH",
+    "PPP"
+  ],
+  "key": {
+    "F": {
+      "item": "bettertobacco:tobacco_filter_item"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "H": {
+      "item": "bettertobacco:dried_hemp_item"
+    }
+  },
+  "result": {
+    "item": "bettertobacco:joint_item"
+  }
+}

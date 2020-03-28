@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import venelalex.bettertobacco.bettertobacco;
+import venelalex.bettertobacco.blocks.crops.HempPlant;
 import venelalex.bettertobacco.blocks.crops.TobaccoPlant;
 
 
@@ -14,6 +15,7 @@ import venelalex.bettertobacco.blocks.crops.TobaccoPlant;
 public class BetterTobaccoBlocks {
 	
 	public static final Block TOBACCO_PLANT = new TobaccoPlant();
+	public static final Block HEMP_PLANT = new HempPlant();
 	
 	@SubscribeEvent
 	public static void register(final net.minecraftforge.event.RegistryEvent.Register<Block> event) 
@@ -21,6 +23,7 @@ public class BetterTobaccoBlocks {
 		final IForgeRegistry<Block> registry = event.getRegistry();
 		
 		registry.register(TOBACCO_PLANT.setRegistryName(bettertobacco.MY_MOD_ID, "tobacco_plant"));
+		registry.register(HEMP_PLANT.setRegistryName(bettertobacco.MY_MOD_ID, "hemp_plant"));
 	}
 	
 	@SubscribeEvent

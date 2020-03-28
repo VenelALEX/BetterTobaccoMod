@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bettertobacco:dried_hemp_cooking_recipe"
+    ]
+  },
+  "criteria": {
+    "Cook your hemp!": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettertobacco:raw_hemp_item"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettertobacco:dried_hemp_cooking_recipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Cook your hemp!",
+      "has_the_recipe"
+    ]
+  ]
+}
