@@ -2,7 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[26,)" #mandatory (26 is current forge version)
 [[mods]] #mandatory
 modId="bettertobacco" #mandatory
-version="0.0.3" #mandatory
+version="0.0.4" #mandatory
 displayName="Better Tobacco" #mandatory
 logoFile="bt_logo.png"
 credits="With lots of love and passion FROM and FOR tobacco lovers <3" #optional
